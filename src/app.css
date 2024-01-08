@@ -1,0 +1,152 @@
+@font-face {
+	font-family: 'Bradesco Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(../src/lib/assets/fonts/Bradesco-Sans-Light.woff2) format('woff2');
+}
+/* @font-face { font-family: 'Bradesco Sans'; font-style: normal; font-weight: 600; font-display: swap; src: url(../src/lib/assets/fonts/Bradesco-Sans-Semibold.woff2) format('woff2'); } */
+@font-face {
+	font-family: 'Bradesco Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../src/lib/assets/fonts/Bradesco-Sans-Bold.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Globoface Gothic Display 2001';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../src/lib/assets/fonts/Globoface-Gothic-Display-2001.woff2) format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@media (max-width: 400px) {
+		html {
+			font-size: 4vw;
+		}
+	}
+	@media (min-width: 1281px) {
+		html {
+			font-size: 1.25vw;
+		}
+	}
+	@media (min-width: 1920px) {
+		html {
+			font-size: 24px;
+		}
+	}
+	html {
+		@apply scroll-smooth bg-[#caddfd] text-[#021b44];
+	}
+}
+
+@layer components {
+}
+
+@layer utilities {
+	.bg-footer {
+		background-image: url(./lib/assets/images/footer.png);
+		background-color: #caddfd;
+	}
+}
+
+.animate-scale {
+	animation: scale 1s alternate infinite ease-in;
+}
+.animate-rotate-l {
+	animation: rotate 10s infinite linear reverse;
+}
+.animate-rotate-r {
+	animation: rotate 10s infinite linear;
+}
+
+@keyframes scale {
+	from {
+		transform: scale(0.75);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.prose p {
+	@apply mb-6;
+}
+.prose-capitalize p:first-child::first-letter {
+	@apply float-left -mt-2 mr-4 text-9xl font-bold leading-[.9] md:text-[12rem];
+}
+
+.prose a {
+	@apply font-bold text-[#07AAA2] underline;
+}
+
+.prose > *:last-child {
+	@apply mb-0;
+}
+
+@screen lg {
+	.reveal-group .reveal-zoom-in,
+	.reveal-group .reveal-fade-up,
+	.reveal-group .reveal-fade-left,
+	.reveal-group .reveal-fade-right {
+		transition-property: opacity, transform;
+		transition-duration: 0ms;
+		transition-delay: 0ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		opacity: 0;
+	}
+	.reveal-group .reveal-zoom-in {
+		transform: translate3d(0, 0, 0) scale(0);
+	}
+	.reveal-group .reveal-fade-up {
+		transform: translate3d(0, 10rem, 0) scale(1);
+	}
+	.reveal-group .reveal-fade-left {
+		transform: translate3d(10rem, 0, 0) scale(1);
+	}
+	.reveal-group .reveal-fade-right {
+		transform: translate3d(-10rem, 0, 0) scale(1);
+	}
+	.reveal-group.reveal-active .reveal-zoom-in,
+	.reveal-group.reveal-active .reveal-fade-up,
+	.reveal-group.reveal-active .reveal-fade-left,
+	.reveal-group.reveal-active .reveal-fade-right {
+		will-change: transform, opacity;
+		transition-duration: 1000ms;
+		transform: translate3d(0, 0, 0) scale(1);
+		opacity: 1;
+	}
+	.reveal-group.reveal-active .reveal-delay-100 {
+		transition-delay: 100ms;
+	}
+	.reveal-group.reveal-active .reveal-delay-200 {
+		transition-delay: 200ms;
+	}
+	.reveal-group.reveal-active .reveal-delay-300 {
+		transition-delay: 300ms;
+	}
+	.reveal-group.reveal-active .reveal-delay-400 {
+		transition-delay: 400ms;
+	}
+	.reveal-group.reveal-active .reveal-delay-500 {
+		transition-delay: 500ms;
+	}
+	.reveal-group.reveal-active .reveal-delay-600 {
+		transition-delay: 600ms;
+	}
+}

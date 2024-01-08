@@ -1,0 +1,15 @@
+{
+	"search.exclude": {
+		"**/.svelte-kit": true,
+		"**/.vercel": true,
+		"**/.vscode": true,
+		"**/build": true,
+		"**/node_modules": true,
+		"pnpm-lock.yaml": true
+	},
+	"editor.indentSize": "tabSize",
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.documentSelectors": ["**/*.svelte"]
+}
