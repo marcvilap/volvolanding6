@@ -12,7 +12,7 @@ const config = {
 			},
 		},
 		paths: {
-			base: '/bc/pioneros/smartcities',
+			base: '/bc/pioneros/ex30futuro',
 		},
 	},
 }
