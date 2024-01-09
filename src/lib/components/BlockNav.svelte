@@ -75,7 +75,7 @@
 		{
 			title: 'EX30',
 			description: 'Una mirada al futuro',
-			color: '#021b44',
+			color: '#fff',
 			background: '#071B44',
 			link: 'ttps://www.eltiempo.es/bc/pioneros/ex30futuro/',
 			image: circle06,
