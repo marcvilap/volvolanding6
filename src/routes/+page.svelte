@@ -26,10 +26,13 @@
 		<div use:reveal class="reveal-group container">
 			<div class="reveal-fade-up prose prose-capitalize mx-auto max-w-xl">
 				<p>
-					Recorremos Barcelona junto con Mario Picazo al volante del EX30, un SUV compacto, y la respuesta de Volvo a la
-					evidente necesidad de tener una movilidad más sostenible y funcional, pero sin olvidar el ADN de la marca, la
-					seguridad. Con este nuevo modelo, el más tecnológico jamás creado por la firma, Volvo se abre a un nuevo
-					segmento, más urbano, techie y joven.
+					Recorremos Barcelona junto con Mario Picazo al volante del <a
+						target="_blank"
+						rel="sponsored"
+						href="https://ad.doubleclick.net/ddm/clk/576888322;385917882;j">EX30, un SUV compacto,</a
+					> y la respuesta de Volvo a la evidente necesidad de tener una movilidad más sostenible y funcional, pero sin olvidar
+					el ADN de la marca, la seguridad. Con este nuevo modelo, el más tecnológico jamás creado por la firma, Volvo se
+					abre a un nuevo segmento, más urbano, techie y joven.
 				</p>
 			</div>
 		</div>
@@ -59,10 +62,14 @@
 			el pulso del presente a la par que escriben el futuro de la forma de movernos.
 		</p>
 		<p>
-			Su capacidad para integrarse en ecosistemas inteligentes como Google Automotive, lo convierte en un componente
-			vital del desarrollo del transporte eficiente, proporcionando navegación en tiempo real, recordatorios de carga,
-			buscador de estaciones… Además, a través de la app del coche, podrás hacer tu vida más fácil como el control de la
-			temperatura del habitáculo, lanzar directamente tu ruta en el navegador, entre otros.
+			Su capacidad para integrarse en <a
+				target="_blank"
+				rel="sponsored"
+				href="https://ad.doubleclick.net/ddm/clk/576797697;385630175;k">ecosistemas inteligentes</a
+			> como Google Automotive, lo convierte en un componente vital del desarrollo del transporte eficiente, proporcionando
+			navegación en tiempo real, recordatorios de carga, buscador de estaciones… Además, a través de la app del coche, podrás
+			hacer tu vida más fácil como el control de la temperatura del habitáculo, lanzar directamente tu ruta en el navegador,
+			entre otros.
 		</p>
 		<p>
 			Definitivamente el EX30 se encuentra a la vanguardia de la revolución de la movilidad, donde la tecnología se
